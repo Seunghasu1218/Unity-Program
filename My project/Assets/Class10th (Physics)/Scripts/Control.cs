@@ -25,4 +25,20 @@ public class Control : MonoBehaviour
     {
         rigidBody.AddForce(direction * speed, forceMode);
     }
+
+    public void Soar()
+    {
+        speed = 0.5f;
+
+        forceMode = ForceMode.Impulse;
+
+        direction = Vector3.up;
+    }
+
+    public void Initialize()
+    {
+        forceMode = ForceMode.Force;
+
+        speed = 5.0f;
+    }
 }
