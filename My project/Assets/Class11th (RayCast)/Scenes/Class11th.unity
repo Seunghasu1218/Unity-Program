@@ -203,6 +203,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 466553694052377376, guid: 459779eb9dd936642b9c14295e40ccee, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1005293747}
+    - targetCorrespondingSourceObject: {fileID: 466553694052377376, guid: 459779eb9dd936642b9c14295e40ccee, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1005293748}
   m_SourcePrefab: {fileID: 100100000, guid: 459779eb9dd936642b9c14295e40ccee, type: 3}
 --- !u!1 &819144135
 GameObject:
@@ -386,8 +389,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6071041459777487180, guid: 70482b15f0d85914eb52f732244c5ec4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 935171100}
   m_SourcePrefab: {fileID: 100100000, guid: 70482b15f0d85914eb52f732244c5ec4, type: 3}
+--- !u!1 &935171099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6071041459777487180, guid: 70482b15f0d85914eb52f732244c5ec4, type: 3}
+  m_PrefabInstance: {fileID: 874612918}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &935171100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935171099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d0248bec51d97488e2581d16d76969, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tent
 --- !u!1 &1005293745 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 466553694052377376, guid: 459779eb9dd936642b9c14295e40ccee, type: 3}
@@ -414,6 +437,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 2, z: 1.5}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1005293748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005293745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb4fffb44cfc7664aae04bde20ec5a2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CampFire
+  size: 0.25
 --- !u!1 &1847294703
 GameObject:
   m_ObjectHideFlags: 0

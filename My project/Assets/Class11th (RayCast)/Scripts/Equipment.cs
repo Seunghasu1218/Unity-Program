@@ -1,6 +1,6 @@
 using UnityEngine;
 
-abstract class Equipment : MonoBehaviour
+public abstract class Equipment : MonoBehaviour
 {
-
+    public abstract void Operate();
 }

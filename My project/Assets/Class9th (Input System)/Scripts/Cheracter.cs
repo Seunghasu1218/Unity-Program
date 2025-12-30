@@ -4,6 +4,7 @@ public class Cheracter : MonoBehaviour
 {
     [SerializeField] Vector3 direction;
     [SerializeField] float speed;
+
     void Update()
     {
         direction.x = Input.GetAxisRaw("Horizontal");
