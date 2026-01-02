@@ -474,8 +474,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a81219ac25c3d44479cb721d7569fd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CreateManager
+  transforms:
+  - {fileID: 1282638923}
+  - {fileID: 829592169}
+  - {fileID: 272073}
   prefab: {fileID: 2066896392038628118, guid: 45288819fde2143449a96207b14db0bb, type: 3}
   time: 5
+  random: 0
 --- !u!4 &1129279706
 Transform:
   m_ObjectHideFlags: 0
